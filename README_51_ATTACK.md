@@ -34,16 +34,16 @@ cd Dogpu/51_percent_attack_tools
 chmod +x *.sh *.py
 ```
 
-### Step 2: Install Dependencies
+### Step 2: Setup and Compile
 ```bash
-# Ubuntu/Debian
-sudo apt update
-sudo apt install -y python3 python3-pip
-pip3 install requests
+# Run the automated setup script
+./SETUP_ON_SERVER.sh
 
-# If binaries don't work, recompile:
-# cd ../DogeGPU-master
-# make clean && ./configure --disable-wallet --disable-tests --disable-gui && make
+# This will:
+# - Install all dependencies
+# - Compile DogeGPU binaries
+# - Set up the attack environment
+# - Test everything works
 ```
 
 ### Step 3: Start Attack Environment
