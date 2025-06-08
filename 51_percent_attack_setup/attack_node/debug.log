@@ -1,0 +1,280 @@
+2025-06-08 19:29:32 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-06-08 19:29:32 Dogpu version v7.1.2.0-ge9c992d827
+2025-06-08 19:29:32 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2025-06-08 19:29:32 Assuming ancestors of block 000000014ef254ef0498ada77b90e8236ac72021cb88c32f331bdcba03d5df77 have valid signatures.
+2025-06-08 19:29:32 Setting nMinimumChainWork=00000000000000000000000000000000000000000000000000034004caf9617a
+2025-06-08 19:29:32 Using the 'sse4' SHA256 implementation
+2025-06-08 19:29:32 Using RdRand as an additional entropy source
+2025-06-08 19:29:32 Default data directory /root/.dogpu
+2025-06-08 19:29:32 Using data directory /workspace/attack_setup/attack_node
+2025-06-08 19:29:32 Using config file /workspace/attack_setup/attack_node/attack_node/dogpu.conf
+2025-06-08 19:29:32 Using at most 125 automatic connections (1024 file descriptors available)
+2025-06-08 19:29:32 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2025-06-08 19:29:32 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2025-06-08 19:29:32 Using 2 threads for script verification
+2025-06-08 19:29:32 scheduler thread start
+2025-06-08 19:29:32 libevent: getaddrinfo: address family for nodename not supported
+2025-06-08 19:29:32 Binding RPC on address ::1 port 6068 failed.
+2025-06-08 19:29:32 HTTP: creating work queue of depth 16
+2025-06-08 19:29:32 No rpcpassword set - using random cookie authentication
+2025-06-08 19:29:32 Generated RPC authentication cookie /workspace/attack_setup/attack_node/.cookie
+2025-06-08 19:29:32 HTTP: starting 4 worker threads
+2025-06-08 19:29:32 Block index database configuration:
+2025-06-08 19:29:32 * Using 2 MB files
+2025-06-08 19:29:32 Cache configuration:
+2025-06-08 19:29:32 * Using 2.0MiB for block index database
+2025-06-08 19:29:32 * Using 8.0MiB for chain state database
+2025-06-08 19:29:32 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2025-06-08 19:29:32 init message: Loading block index...
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/blocks/index
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/blocks/index: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/assets
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/assets: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/messages/messages
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/messages/messages: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/messages/channels
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/messages/channels: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/myrestricted
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/myrestricted: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/assets/restricted
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/assets/restricted: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/snapshotrequest
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/snapshotrequest: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/assetsnapshot
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/assetsnapshot: 0000000000000000
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/distributerequests
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/distributerequests: 0000000000000000
+2025-06-08 19:29:32 Database failed to load last Reissued Mempool State. Will have to start from empty stateSuccessfully loaded assets from database.
+Cache of assets size: 0
+2025-06-08 19:29:32 Messaging is enabled
+2025-06-08 19:29:32 LoadBlockIndexDB: last block file = 0
+2025-06-08 19:29:32 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2025-06-08 19:29:32 Checking all blk files are present...
+2025-06-08 19:29:32 LoadBlockIndexDB: transaction index disabled
+2025-06-08 19:29:32 LoadBlockIndexDB: asset index disabled
+2025-06-08 19:29:32 LoadBlockIndexDB: address index disabled
+2025-06-08 19:29:32 LoadBlockIndexDB: timestamp index disabled
+2025-06-08 19:29:32 LoadBlockIndexDB: spent index disabled
+2025-06-08 19:29:32 Initializing databases...
+2025-06-08 19:29:32 LoadBlockIndex: transaction index disabled
+2025-06-08 19:29:32 LoadBlockIndex: asset index disabled
+2025-06-08 19:29:32 LoadBlockIndex: address index disabled
+2025-06-08 19:29:32 LoadBlockIndex: timestamp index disabled
+2025-06-08 19:29:32 LoadBlockIndex: spent index disabled
+2025-06-08 19:29:32 Pre-allocating up to position 0x1000000 in blk00000.dat
+2025-06-08 19:29:32 Opening LevelDB in /workspace/attack_setup/attack_node/chainstate
+2025-06-08 19:29:32 Opened LevelDB successfully
+2025-06-08 19:29:32 Wrote new obfuscate key for /workspace/attack_setup/attack_node/chainstate: b6eb2892c4853ef0
+2025-06-08 19:29:32 Using obfuscation key for /workspace/attack_setup/attack_node/chainstate: b6eb2892c4853ef0
+2025-06-08 19:29:32 init message: Rewinding blocks...
+2025-06-08 19:29:32  block index             120ms
+2025-06-08 19:29:32 No wallet support compiled in!
+2025-06-08 19:29:32 UpdateTip: new best=00000052129a4a8d7f095769951e24a0b6f82a68670324985d7733ec4686d3b4 height=0 version=0x00000004 log2_work=24.000022 tx=1 date='2024-04-01 06:00:00' progress=0.000001 cache=0.0MiB(0txo)
+2025-06-08 19:29:32 Failed to open mempool file from disk. Continuing anyway.
+2025-06-08 19:29:32 mapBlockIndex.size() = 1
+2025-06-08 19:29:32 nBestHeight = 0
+2025-06-08 19:29:32 torcontrol thread start
+2025-06-08 19:29:32 Connection Manager: StartBound to [::]:6069
+2025-06-08 19:29:32 Bound to 0.0.0.0:6069
+2025-06-08 19:29:32 Connection Manager: Adding Seed Nodes
+2025-06-08 19:29:32 init message: Loading P2P addresses...
+2025-06-08 19:29:32 ERROR: DeserializeFileDB: Failed to open file /workspace/attack_setup/attack_node/peers.dat
+2025-06-08 19:29:32 Invalid or missing peers.dat; recreating
+2025-06-08 19:29:32 init message: Loading banlist...
+2025-06-08 19:29:32 ERROR: DeserializeFileDB: Failed to open file /workspace/attack_setup/attack_node/banlist.dat
+2025-06-08 19:29:32 Invalid or missing banlist.dat; recreating
+2025-06-08 19:29:32 init message: Starting network threads...
+2025-06-08 19:29:32 net thread start
+2025-06-08 19:29:32 dnsseed thread start
+2025-06-08 19:29:32 Loading addresses from DNS seeds (could take a while)
+2025-06-08 19:29:32 IP: dns.dogegpu.com
+2025-06-08 19:29:32 addcon thread start
+2025-06-08 19:29:32 opencon thread start
+2025-06-08 19:29:32 init message: Done Loading
+2025-06-08 19:29:32 msghand thread start
+2025-06-08 19:29:32 IP: dnss.dogegpu.org
+2025-06-08 19:29:32 IP: dogpu.dogduck.com 
+2025-06-08 19:29:32 0 addresses found from DNS seeds
+2025-06-08 19:29:32 dnsseed thread exit
+2025-06-08 19:29:46 tor: Thread interrupt
+2025-06-08 19:29:46 opencon thread exit
+2025-06-08 19:29:46 torcontrol thread exit
+2025-06-08 19:29:46 scheduler thread interrupt
+2025-06-08 19:29:46 addcon thread exit
+2025-06-08 19:29:46 PrepareShutdown: In progress...
+2025-06-08 19:29:46 msghand thread exit
+2025-06-08 19:29:46 net thread exit
+2025-06-08 19:29:46 Dumped mempool: 2e-06s to copy, 0.003611s to dump
+2025-06-08 19:29:46 Flush: Flushing messagechannelsdb addSize:0, removeSize:0, seenAddressSize:0
+2025-06-08 19:29:46 Flush: Flushing messagechannelsdb addSize:0, removeSize:0, seenAddressSize:0
+2025-06-08 19:29:46 Shutdown: done
+2025-06-08 19:30:43 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2025-06-08 19:30:43 Dogpu version v7.1.2.0-ge9c992d827
+2025-06-08 19:30:43 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2025-06-08 19:30:43 Assuming ancestors of block 000000014ef254ef0498ada77b90e8236ac72021cb88c32f331bdcba03d5df77 have valid signatures.
+2025-06-08 19:30:43 Setting nMinimumChainWork=00000000000000000000000000000000000000000000000000034004caf9617a
+2025-06-08 19:30:43 Using the 'sse4' SHA256 implementation
+2025-06-08 19:30:43 Using RdRand as an additional entropy source
+2025-06-08 19:30:43 Default data directory /root/.dogpu
+2025-06-08 19:30:43 Using data directory /workspace/attack_setup/attack_node
+2025-06-08 19:30:43 Using config file /workspace/attack_setup/attack_node/dogpu.conf
+2025-06-08 19:30:43 Using at most 50 automatic connections (1024 file descriptors available)
+2025-06-08 19:30:43 Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2025-06-08 19:30:43 Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2025-06-08 19:30:43 Using 2 threads for script verification
+2025-06-08 19:30:43 scheduler thread start
+2025-06-08 19:30:43 libevent: getaddrinfo: address family for nodename not supported
+2025-06-08 19:30:43 Binding RPC on address ::1 port 8334 failed.
+2025-06-08 19:30:43 HTTP: creating work queue of depth 16
+2025-06-08 19:30:43 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2025-06-08 19:30:43 HTTP: starting 4 worker threads
+2025-06-08 19:30:43 Block index database configuration:
+2025-06-08 19:30:43 * Using 2 MB files
+2025-06-08 19:30:43 Cache configuration:
+2025-06-08 19:30:43 * Using 2.0MiB for block index database
+2025-06-08 19:30:43 * Using 8.0MiB for chain state database
+2025-06-08 19:30:43 * Using 440.0MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2025-06-08 19:30:43 init message: Loading block index...
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/blocks/index
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/blocks/index: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/assets
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/assets: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/messages/messages
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/messages/messages: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/messages/channels
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/messages/channels: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/myrestricted
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/myrestricted: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/assets/restricted
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/assets/restricted: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/snapshotrequest
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/snapshotrequest: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/assetsnapshot
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/assetsnapshot: 0000000000000000
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/rewards/distributerequests
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/rewards/distributerequests: 0000000000000000
+2025-06-08 19:30:43 Successfully loaded assets from database.
+Cache of assets size: 0
+2025-06-08 19:30:43 Messaging is enabled
+2025-06-08 19:30:43 LoadBlockIndexDB: last block file = 0
+2025-06-08 19:30:43 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=1, size=277, heights=0...0, time=2024-04-01...2024-04-01)
+2025-06-08 19:30:43 Checking all blk files are present...
+2025-06-08 19:30:43 LoadBlockIndexDB: transaction index disabled
+2025-06-08 19:30:43 LoadBlockIndexDB: asset index disabled
+2025-06-08 19:30:43 LoadBlockIndexDB: address index disabled
+2025-06-08 19:30:43 LoadBlockIndexDB: timestamp index disabled
+2025-06-08 19:30:43 LoadBlockIndexDB: spent index disabled
+2025-06-08 19:30:43 Opening LevelDB in /workspace/attack_setup/attack_node/chainstate
+2025-06-08 19:30:43 Opened LevelDB successfully
+2025-06-08 19:30:43 Using obfuscation key for /workspace/attack_setup/attack_node/chainstate: b6eb2892c4853ef0
+2025-06-08 19:30:43 Loaded best chain: hashBestChain=00000052129a4a8d7f095769951e24a0b6f82a68670324985d7733ec4686d3b4 height=0 date=2024-04-01 06:00:00 progress=0.000001
+2025-06-08 19:30:43 init message: Rewinding blocks...
+2025-06-08 19:30:43 Flush: Flushing messagechannelsdb addSize:0, removeSize:0, seenAddressSize:0
+2025-06-08 19:30:43 init message: Verifying blocks...
+2025-06-08 19:30:43  block index             102ms
+2025-06-08 19:30:43 No wallet support compiled in!
+2025-06-08 19:30:43 mapBlockIndex.size() = 1
+2025-06-08 19:30:43 nBestHeight = 0
+2025-06-08 19:30:43 Imported mempool transactions from disk: 0 succeeded, 0 failed, 0 expired, 0 already there
+2025-06-08 19:30:43 torcontrol thread start
+2025-06-08 19:30:43 Connection Manager: StartBound to [::]:8335
+2025-06-08 19:30:43 Bound to 0.0.0.0:8335
+2025-06-08 19:30:43 Connection Manager: Adding Seed Nodes
+2025-06-08 19:30:43 init message: Loading P2P addresses...
+2025-06-08 19:30:43 Loaded 0 addresses from peers.dat  0ms
+2025-06-08 19:30:43 init message: Loading banlist...
+2025-06-08 19:30:43 init message: Starting network threads...
+2025-06-08 19:30:43 net thread start
+2025-06-08 19:30:43 dnsseed thread start
+2025-06-08 19:30:43 Loading addresses from DNS seeds (could take a while)
+2025-06-08 19:30:43 IP: dns.dogegpu.com
+2025-06-08 19:30:43 addcon thread start
+2025-06-08 19:30:43 init message: Done Loading
+2025-06-08 19:30:43 msghand thread start
+2025-06-08 19:30:43 opencon thread start
+2025-06-08 19:30:43 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=0, us=[::]:0, peer=0
+2025-06-08 19:30:43 IP: dnss.dogegpu.org
+2025-06-08 19:30:43 IP: dogpu.dogduck.com 
+2025-06-08 19:30:43 0 addresses found from DNS seeds
+2025-06-08 19:30:43 dnsseed thread exit
+2025-06-08 19:31:39 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=0, us=[::]:0, peer=1
+2025-06-08 19:31:44 Adding fixed seed nodes as DNS doesn't seem to be available.
+2025-06-08 19:31:44 connect() to 35.212.192.254:6069 failed after select(): Connection refused (111)
+2025-06-08 19:31:44 receive version message: /Dogegpu:7.1.1/: version 70028, blocks=1861588, us=34.132.89.134:50892, peer=2
+2025-06-08 19:31:45 connect() to 207.180.218.216:6069 failed after select(): Connection refused (111)
+2025-06-08 19:31:56 connect() to 145.252.42.179:6069 failed after select(): Network is unreachable (101)
+2025-06-08 19:32:31 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=1861590, us=34.132.89.134:16876, peer=4
+2025-06-08 19:32:37 connect() to [2a01:cb08:b8f:1700:d06a:9825:b0de:95b1]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:32:38 connect() to [2804:9f8:4003:3467:a8a8:5aef:7be9:42ac]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:32:50 connect() to [2600:1700:fee0:c00:b15b:48bf:fa45:a8d2]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:32:59 connect() to [2804:2664:411b:c600:9570:9e8b:bdbb:eace]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:33:01 connect() to [2600:6c54:7c00:10d:6974:cb19:e854:68f8]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:33:03 connect() to 92.117.236.37:6069 failed after select(): No route to host (113)
+2025-06-08 19:33:09 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=1861591, us=34.132.89.134:6366, peer=5
+2025-06-08 19:33:09 connect() to 109.205.181.171:6069 failed after select(): Connection refused (111)
+2025-06-08 19:33:34 connect() to [2600:6c54:7c00:10d:35b7:bfc6:574:ad82]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:33:58 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=1861599, us=34.132.89.134:21112, peer=6
+2025-06-08 19:34:04 connect() to [2600:1700:fee0:c00::32]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:34:05 connect() to [2001:2042:7722:9600:38d8:3c67:8595:719a]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:34:12 connect() to [240e:332:1172:b000:42c1:d690:2bbd:294b]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:34:20 connect() to [2001:2042:7722:9600:d4e4:b186:edc6:577a]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:34:21 connect() to 188.29.228.36:6069 failed after select(): Connection refused (111)
+2025-06-08 19:34:37 receive version message: /Dogegpu:7.1.2/: version 70028, blocks=1861603, us=34.132.89.134:56983, peer=7
+2025-06-08 19:34:39 connect() to [2601:681:4c00:9900:5491:191f:8c04:a6de]:6069 failed: Cannot assign requested address (99)
+2025-06-08 19:34:46 connect() to [240e:332:11dd:9d00:e5d1:50da:15f9:271c]:6069 failed: Cannot assign requested address (99)
